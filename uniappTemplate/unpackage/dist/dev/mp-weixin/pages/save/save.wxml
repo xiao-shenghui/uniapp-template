@@ -1,0 +1,1 @@
+<view class="data-v-68080b26"><view class="empty data-v-68080b26"><u-empty vue-id="ce0c4ac0-1" text="没有优惠券" icon-size="150rpx" mode="coupon" class="data-v-68080b26" bind:__l="__l"></u-empty></view><xtabbar vue-id="ce0c4ac0-2" class="data-v-68080b26" bind:__l="__l"></xtabbar></view>

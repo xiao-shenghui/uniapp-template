@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/save/save",
+    "pages/scan/scan",
+    "pages/money/money",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/save/save"
+      },
+      {
+        "pagePath": "pages/scan/scan",
+        "iconPath": "/static/scan.png",
+        "selectedIconPath": "/static/scan-selected.png"
+      },
+      {
+        "pagePath": "pages/money/money"
+      },
+      {
+        "pagePath": "pages/user/user"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序定位"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {
+    "xtabbar": "/components/xtabbar"
+  }
+}
